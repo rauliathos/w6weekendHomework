@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <script src="js/app.js"></script>>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <title>Fishing Sopts</title>
+</head>
+<body>
+  <form id="new-fish-caught">
+    <div id="form-wrapper">
+      <div class="form-fish">
+        <label for="fish" class="primary">Fish Species</label>
+        <select id="fish">
+          <option value="" disabled selected></option>
+          <option value="Mackerel">Mackerel</option>
+          <option value="Pollock">Pollock</option>
+          <option value="Wrasse">Wrasse</option>
+          <option value="Bass">Bass</option>
+        </select>
+      </div>
+
+      <div class="form-fish">
+        <label for="techniques" class="primary">Fishing Techniques</label>
+        <select id="techniques">
+          <option value="" disabled selected></option>
+          <option value="Float">Float Fishing</option>
+          <option value="Spinning">Spinning</option>
+          <option value="Feathering">Feathering</option>
+        </select>
+      </div>
+
+      <div class="form-fish">
+        <label for="spot" class="primary">Spots</label>
+        <select id="spot">
+          <option value="" disabled selected></option>
+          <option value="Granton">Granton Harbour</option>
+          <option value="Portobello">Portobello</option>
+          <option value="Queensferry">South Queensferry</option>
+        </select>
+      </div>
+    </div>
+    <input type="submit" value="save"/>
+  </form>
+  <button id= "delete-all">Delete List</button>
+
+  <h1>Captures List</h1>
+  <div id="catches-list"></div>
+</body>
+</html>

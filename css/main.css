@@ -1,0 +1,14 @@
+body {
+  font-family:fantasy;
+}
+
+ul {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 8px;
+  list-style-type: none;
+}
+
+li {
+  padding: 4px;
+}
